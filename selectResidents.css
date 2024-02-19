@@ -1,0 +1,254 @@
+*{
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+body {
+	background: #fff;
+	margin: 0;
+	font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+	color: #000;
+	padding-left: 240px;
+}
+
+main {
+	/* position: relative; */
+    background: #f1f1f1;
+	height: 100vh;
+
+}
+
+
+.menu {
+	background:  #fff;
+	height: 100vh;
+	width: 240px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	outline: none;
+
+	
+}
+.menu .avatar {
+		background: #fff;
+		padding: 2em 0.5em;
+		text-align: center;
+
+		
+	}
+/* .menu .avatar .icon i {
+			font-size: 2rem;
+            color: #000;
+		} */
+	
+.menu .avatar h2 {
+			font-weight: bold;
+			margin-bottom: 0;
+            text-decoration: none;
+			color: #000;
+		}
+ul {
+		list-style: none;
+		padding: 0.5em 0;
+		margin: 0;
+}
+li {
+			padding: 0.5em 1em 0.5em 3em;
+			font-size: 0.95em;
+			font-weight: regular;
+			background-repeat: no-repeat;
+			background-position: left 15px center;
+			background-size: auto 20px;
+			transition: all 0.15s linear;
+			cursor: pointer;
+			color: #000;
+}
+
+
+:focus {
+	outline: none;
+}
+.fp-name{
+    text-decoration: none;
+    font-weight: bolder;
+}
+ul li i{
+    margin-right: 2rem;
+}		
+.w3-panel{
+    padding: 2rem;
+}
+.w3-panel i{
+    font-size: 1rem;
+    margin-right:2rem;
+}
+.avatar .fp-name i{
+    color: #000;
+    font-size: 2em;
+}
+ul li a{
+	color: #000;
+}
+.fp-name:hover{
+	color: #fff;
+	text-shadow: 1px 1px 1px;
+	text-decoration: none;
+}
+ .fp-name .fa-regular fa-building:hover,.fp-name h2:hover {
+	text-shadow: 1px 1px 1px;
+	text-decoration: none;
+}
+ul li:hover{
+	color: #fff;
+	background-color: #f1f1f1;
+	text-shadow: #000 2px;
+}
+ul li a:hover,ul li i:hover{
+	color: #fff;
+	text-shadow: #000  1px 1px 1px;
+}
+/* ------------------- */
+/* not same */
+main h1{
+  padding: 40px;
+  text-align: center;
+}
+
+.container{
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* table */
+    /* .responsive-table {
+        width: 80vh;
+    } */
+  .responsive-table{
+    padding: 0;
+  }
+    .responsive-table tr {
+      border-radius: 3px;
+      /* padding: 25px 25px; */
+      display: block;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      margin-right: 50px;
+    }
+    .responsive-table .table-header {
+      background-color: #95A5A6;
+      font-size: 10px;
+      text-transform: uppercase;
+      /* width: fit-content; */
+      width: fit-content;
+      font-weight: bolder;
+    }
+    .responsive-table .table-row {
+      background-color: #ffffff;
+      box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+      font-size: 11px;
+      width: fit-content;
+      margin-right: 50px;
+        /* width: fit-content; */
+    }
+    .table-header .col{
+      width: fit-content;
+      padding: 10px;
+    }
+    .responsive-table .col-6,.responsive-table .col-2{
+      width: 15px;
+      padding: 30px;
+    }
+   .table-row .col {
+      width: fit-content;
+      padding: 20px;
+      margin-left: 5px;
+    }
+    /* .responsive-table .table-row td .col{
+      width: 10px;
+    } */
+
+    /* .responsive-table .col-1 {
+      width: fit-content;
+    }
+    .responsive-table .col-2 {
+      width: fit-content;
+
+        width: 7%;
+        }
+    .responsive-table .col-3 {
+        width: fit-content;
+        width: 7%;
+    }
+    .responsive-table .col-4 {
+        width: fit-content;
+        width: 7%;
+    }
+    .responsive-table .col-5 {
+        width: fit-content;
+        width: 7%;
+      }
+      .responsive-table .col-6 {
+        width: fit-content;
+        width: 7%;
+      }
+
+      .responsive-table .col-7 {
+        width: fit-content;
+        width: 7%;
+      }
+      .responsive-table .col-8 {
+        width: fit-content;
+        width: 7%;
+      }
+      .responsive-table .col-9 {
+        width: 7%;
+        width: fit-content;
+      }
+      .responsive-table .col-10 {
+        width: fit-content;
+        width: 7%;
+      }
+      .responsive-table .col-11 {
+        width: fit-content;
+        width: 7%;
+      }
+      .responsive-table .col-12{
+        width: fit-content;
+        width: 7%;
+      }
+      .responsive-table .col-13 {
+        width: fit-content;
+        width: 7%;
+      } 
+     */
+    /* @media all and (max-width: 767px) {
+      .table-header {
+        display: none;
+      }
+      .table-row{
+        
+      }
+      li {
+        display: block;
+      }
+      .col {
+        
+        flex-basis: 100%;
+        
+      }
+      .col {
+        display: flex;
+        padding: 10px 0;
+        &:before {
+          color: #6C7A89;
+          padding-right: 10px;
+          content: attr(data-label);
+          flex-basis: 50%;
+          text-align: right;
+        }
+      }
+    }
+  } */

@@ -1,0 +1,242 @@
+*{
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+body {
+	background: #fff;
+	margin: 0;
+	font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+	color: #000;
+	padding-left: 240px;
+}
+
+main {
+	/* position: relative; */
+    background: #f1f1f1;
+	height: fit-content;
+}
+
+
+.menu {
+	background:  #fff;
+	height: 100vh;
+	width: 240px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	outline: none;
+
+	
+}
+.menu .avatar {
+		background: #fff;
+		padding: 2em 0.5em;
+		text-align: center;
+
+		
+	}
+/* .menu .avatar .icon i {
+			font-size: 2rem;
+            color: #000;
+		} */
+	
+.menu .avatar h2 {
+			font-weight: bold;
+			margin-bottom: 0;
+            text-decoration: none;
+			color: #000;
+		}
+ul {
+		list-style: none;
+		padding: 0.5em 0;
+		margin: 0;
+}
+li {
+			padding: 0.5em 1em 0.5em 3em;
+			font-size: 0.95em;
+			font-weight: regular;
+			background-repeat: no-repeat;
+			background-position: left 15px center;
+			background-size: auto 20px;
+			transition: all 0.15s linear;
+			cursor: pointer;
+			color: #000;
+}
+
+
+:focus {
+	outline: none;
+}
+.fp-name{
+    text-decoration: none;
+    font-weight: bolder;
+}
+ul li i{
+    margin-right: 2rem;
+}		
+.w3-panel{
+    padding: 2rem;
+}
+.w3-panel i{
+    font-size: 1rem;
+    margin-right:2rem;
+}
+.avatar .fp-name i{
+    color: #000;
+    font-size: 2em;
+}
+ul li a{
+	color: #000;
+}
+.fp-name:hover{
+	color: #fff;
+	text-shadow: 1px 1px 1px;
+	text-decoration: none;
+}
+ .fp-name .fa-regular fa-building:hover,.fp-name h2:hover {
+	text-shadow: 1px 1px 1px;
+	text-decoration: none;
+}
+ul li:hover{
+	color: #fff;
+	background-color: #f1f1f1;
+	text-shadow: #000 2px;
+}
+ul li a:hover,ul li i:hover{
+	color: #fff;
+	text-shadow: #000  1px 1px 1px;
+}
+/* ------------------- */
+/* not same */
+/* tab */
+.tabset > input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+  }
+  
+  .tabset .tab-panel {
+    display: none;
+  }
+  
+  .tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+  .tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+  .tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+  .tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+  .tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+  .tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+    display: block;
+  }
+    .tabset > label {
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px 25px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .tabset > label::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    width: 22px;
+    height: 4px;
+    background: #8d8d8d;
+  }
+  
+  .tabset > label:hover,
+  .tabset > input:focus + label {
+    color: #06c;
+  }
+  
+  .tabset > label:hover::after,
+  .tabset > input:focus + label::after,
+  .tabset > input:checked + label::after {
+    background: #06c;
+  }
+  
+  .tabset > input:checked + label {
+    border-color: #ccc;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+  }
+  
+  .tab-panel {
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  /*
+   Demo purposes only
+  */
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+
+  
+  .tabset {
+    max-width: 65em;
+  }
+
+
+
+/* table status */
+table {
+    float: left;
+    margin: 1em 5%;
+}
+main h1{
+    padding: 40px;
+    text-align: center;
+}
+main .container{
+    /* background-color: #fff; */
+    width: 800px;
+    padding: 5vh;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+}
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .responsive-table li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  .responsive-table .table-header {
+    background-color: #95A5A6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .responsive-table .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+  }
+  .responsive-table .col-1 {
+    flex-basis: 10%;
+  }
+  .responsive-table .col-2 {
+    flex-basis: 40%;
+  }
+  .responsive-table .col-3 {
+    flex-basis: 25%;
+  }
+  .responsive-table .col-4 {
+    flex-basis: 25%;
+  }  
+ 

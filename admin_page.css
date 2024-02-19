@@ -1,0 +1,134 @@
+*{
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+body {
+	background: #fff;
+	margin: 0;
+	font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+	color: #000;
+	padding-left: 240px;
+}
+
+main {
+	/* position: relative; */
+    background: #f1f1f1;
+	height: fit-content;
+}
+
+
+.menu {
+	background:  #fff;
+	height: 100vh;
+	width: 240px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	outline: none;
+
+	
+}
+.menu .avatar {
+		background: #fff;
+		padding: 2em 0.5em;
+		text-align: center;
+
+		
+	}
+/* .menu .avatar .icon i {
+			font-size: 2rem;
+            color: #000;
+		} */
+	
+.menu .avatar h2 {
+			font-weight: bold;
+			margin-bottom: 0;
+            text-decoration: none;
+			color: #000;
+		}
+ul {
+		list-style: none;
+		padding: 0.5em 0;
+		margin: 0;
+}
+li {
+			padding: 0.5em 1em 0.5em 3em;
+			font-size: 0.95em;
+			font-weight: regular;
+			background-repeat: no-repeat;
+			background-position: left 15px center;
+			background-size: auto 20px;
+			transition: all 0.15s linear;
+			cursor: pointer;
+			color: #000;
+}
+
+
+:focus {
+	outline: none;
+}
+.fp-name{
+    text-decoration: none;
+    font-weight: bolder;
+}
+ul li i{
+    margin-right: 2rem;
+}		
+.w3-panel{
+    padding: 2rem;
+}
+.w3-panel i{
+    font-size: 1rem;
+    margin-right:2rem;
+}
+.avatar .fp-name i{
+    color: #000;
+    font-size: 2em;
+}
+ul li a{
+	color: #000;
+}
+.fp-name:hover{
+	color: #fff;
+	text-shadow: 1px 1px 1px;
+	text-decoration: none;
+}
+ .fp-name .fa-regular fa-building:hover,.fp-name h2:hover {
+	text-shadow: 1px 1px 1px;
+	text-decoration: none;
+}
+ul li:hover{
+	color: #fff;
+	background-color: #f1f1f1;
+	text-shadow: #000 2px;
+}
+ul li a:hover,ul li i:hover{
+	color: #fff;
+	text-shadow: #000  1px 1px 1px;
+}
+/* ------------------- */
+/* not same */
+main h1{
+    padding: 40px;
+    text-align: center;
+}
+main .container{
+    background-color: #fff;
+    width: 800px;
+    padding: 5vh;
+    border-radius: 10px;
+    margin-bottom: 5vh;
+}
+main .update{
+    background-color: #32cd32;
+    border-color: #32cd32;
+    margin-left: 10vh;
+}
+main .delete{
+    background-color: red;
+    border-color: red;
+    margin-left: 10vh;
+}
+
